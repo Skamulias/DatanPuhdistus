@@ -2,7 +2,7 @@ clc
 clear variables
 clear all
 
-#{
+%{
 
 Tämän tarkoitus on puhdistaa taulukko, joka koostuu koskemattomasta tuotantodatasta.
 Skripti poistaa nolla- ja NaN-arvot. Lisäksi se poistaa outlierit käyttämällä
@@ -27,7 +27,7 @@ Oletukset:
     - Muokkaamalla ensimmäinen ja viimeinen arvo listan olemassa olevien lukujen
       keskiarvoksi, voidaan varmistaa, että lista täyttää oletukset.
 
-#}
+%}
 
 %%DATA
 importattu_data = importaa_data; %Tähän lisätään haluttu data
